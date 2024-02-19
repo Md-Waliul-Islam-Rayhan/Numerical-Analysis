@@ -19,4 +19,4 @@ def Newton(f, f1, p0, TOL, N0):
 
 f = lambda x: math.cos(x) - x
 f1 = lambda x: - math.sin(x) - 1
-Newton(f, f1, math.pi/2, 0.0000000000000001, 50)
+Newton(f, f1, math.pi / 2, 0.0000000000000001, 20)

@@ -10,7 +10,10 @@ def trapezoidal(f, a, b, n):
         result += h * y[i]
     return result
 
-f = lambda x: 1/(x**2+1)
-n = 7
-num = trapezoidal(f, 0, 1, n)
+
+from math import sin, pi
+
+f = lambda x: sin(x)
+n = 4
+num = trapezoidal(f, 0, pi / 2, n)
 print("Solution is :", format(num, 'f'))
