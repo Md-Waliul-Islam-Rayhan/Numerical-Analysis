@@ -1,31 +1,80 @@
-<h1 align='center'>Numerical Analysis - Python</h1>
-<p>This repository contains Python code for various numerical analysis methods, such as:</p>
-<ul>
-<li>Bisection method</li>
-<li>Newton-Raphson method</li>
-<li>Secant method</li>
-<li>Fixed point iteration method</li>
-<li>False position method</li>
-<li>Lagrange interpolation</li>
-<li>Newton's divided difference interpolation</li>
-<li>Newton's forward and backward difference interpolation</li>
-<li>Trapezoidal rule</li>
-<li>Simpson's rule</li>
-<li>Gauss quadrature</li>
-<li>Euler's method</li>
-<li>Runge-Kutta method</li>
-<li>Adams-Bashforth method</li>
-<li>Adams-Moulton method</li>
-</ul>
-<p>The code is written in Python 3 and uses the numpy and matplotlib libraries.</p>
-<p>To run the code, you need to have Python 3 and the required libraries installed on your system. You can also use an online Python interpreter, such as <a href="https://replit.com/">Repl.it</a>.</p>
-<p>To use the code, you need to provide the input parameters, such as the function, the interval, the tolerance, the initial value, etc. The code will output the approximate solution, the error, and the number of iterations. Some code will also plot the function and the solution.</p>
-<p>The code is commented and documented to explain the logic and the steps of each method.</p>
-<p>This repository is created for educational purposes and is not intended to be a comprehensive or optimized implementation of numerical analysis methods. For more information and references, please see the following sources:</p>
-<ul>
-<li><a href="https://www.math.ust.hk/~machas/numerical-methods.pdf">Numerical Methods</a> by J. F. Epperson</li>
-<li><a href="https://www.math.ubc.ca/~pwalls/math-python/">Mathematical Python</a> by Patrick Walls</li>
-<li><a href="https://www.saylor.org/site/wp-content/uploads/2012/10/ME302-OpenStax-NumericalAnalysis.pdf">Numerical Analysis</a> by OpenStax</li>
-</ul>
-<p>If you find any errors or bugs in the code, please feel free to report them or suggest improvements.</p>
-<p>Happy coding! 😊</p>
+# Numerical Analysis - Python
+
+This repository provides Python implementations of a variety of numerical analysis methods commonly used for solving mathematical problems. The code is written in Python 3 and makes use of popular libraries such as `numpy` and `matplotlib` for computational and visualization purposes.
+
+## Contents
+
+The repository includes Python scripts for the following numerical analysis methods:
+
+- **Root-Finding Methods**:
+  - Bisection Method
+  - Newton-Raphson Method
+  - Secant Method
+  - Fixed Point Iteration Method
+  - False Position Method
+
+- **Interpolation Methods**:
+  - Lagrange Interpolation
+  - Newton's Divided Difference Interpolation
+  - Newton's Forward and Backward Difference Interpolation
+
+- **Numerical Integration**:
+  - Trapezoidal Rule
+  - Simpson's Rule
+  - Gauss Quadrature
+
+- **Differential Equation Solvers**:
+  - Euler's Method
+  - Runge-Kutta Method
+  - Adams-Bashforth Method
+  - Adams-Moulton Method
+
+## Requirements
+
+To run the code, you need Python 3 and the following libraries installed on your system:
+- `numpy`
+- `matplotlib`
+
+You can install the required packages using:
+```bash
+pip install numpy matplotlib
+```
+
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/waliulrayhan/Numerical-Analysis-Python.git
+   cd Numerical-Analysis-Python
+2. Run any Python script using:
+   ```bash
+   python3 script_name.py
+3. You can also use an online Python interpreter, such as <a href="https://replit.com/">Repl.it</a>
+
+### Input and Output
+
+- **Input Parameters**: Each method requires specific inputs such as functions, intervals, tolerances, initial guesses, etc.
+- **Output**: The scripts provide the approximate solution, error estimation, and number of iterations. In some cases, the function and its solution are plotted for better visualization.
+
+## Documentation
+
+Each Python file is thoroughly commented to explain the logic and steps of the respective method. The code is designed for educational purposes and aims to help students and learners understand the fundamentals of numerical analysis. While the implementation may not be optimized for all use cases, it serves as an excellent learning tool.
+
+## References and Further Reading
+
+For more information and to deepen your understanding, refer to the following resources:
+- [Numerical Methods by J. F. Epperson](https://www.math.ust.hk/~machas/numerical-methods.pdf)
+- [Mathematical Python by Patrick Walls](https://www.math.ubc.ca/~pwalls/math-python/)
+- [Numerical Analysis by OpenStax](https://www.saylor.org/site/wp-content/uploads/2012/10/ME302-OpenStax-NumericalAnalysis.pdf)
+
+## Contributing
+
+Found a bug or have suggestions for improvements? Feel free to open an issue or submit a pull request. Contributions are welcome!
+
+## License
+
+This repository is provided for educational purposes. You are free to use and modify the code, but please acknowledge the source.
+
+Happy coding! 😊
+
+
