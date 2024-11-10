@@ -1,4 +1,4 @@
-<h1>Python-Numerical-Analysis</h1>
+<h1 align='center'>Numerical Analysis - Python</h1>
 <p>This repository contains Python code for various numerical analysis methods, such as:</p>
 <ul>
 <li>Bisection method</li>
